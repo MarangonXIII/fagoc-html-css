@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'DarkSFont';
+    src: url(font/OptimusPrinceps.ttf) format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --font-destaque: 'DarkSFont', serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    
+}
+
+header{
+    text-align: center;
+    padding-top: 40px;
+    font-size: x-large;
+}
+
+header>h1{
+    font-family: var(--font-destaque);
+}
+
+nav>a{
+    color: black;
+}
