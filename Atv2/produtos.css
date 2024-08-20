@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'DarkSFont';
+    src: url(font/OptimusPrinceps.ttf) format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --font-destaque: 'DarkSFont', serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    width: 400px;
+    display: inline-block;
+}
+
+img{
+    width: 150%;
+}

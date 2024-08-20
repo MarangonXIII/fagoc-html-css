@@ -18,24 +18,20 @@ a{
     text-decoration: none;
 }
 
-header{
+article{
+    padding: 50px 310px;
     text-align: center;
-    padding-top: 40px;
-    font-size: x-large;
 }
 
-header>h1{
-    font-family: var(--font-destaque);
-    font-size: 60px;
+section{
+    padding: 50px 0px;
 }
 
-nav{
-    text-align: center;
-    padding: 20px 0px;
+section>h1{
+    font-size: 50px;
 }
 
-nav>a{
-    color: black;
-    padding: 0px 20px;
+section>p{
     font-size: 20px;
+    
 }
