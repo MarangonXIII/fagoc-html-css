@@ -1,0 +1,43 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    font-size: 15px;
+    width: 150px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* Remove as setas de aumentar/diminuir */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

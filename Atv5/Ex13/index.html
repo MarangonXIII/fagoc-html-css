@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Ex L13 - Roubo</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <section>
+                <h2>Cálculo de Salário com Descontos</h2>
+            </section>
+            <section>
+                <label for="ganhoHora">Quanto você ganha por hora:</label>
+                <input type="number" step="0.01" id="ganhoHora" placeholder="Ex: 25.00" onkeydown="irParaProximo(event, 'horasTrabalhadas')">
+            </section>
+            <section>
+                <label for="horasTrabalhadas">Número de horas trabalhadas no mês:</label>
+                <input type="number" id="horasTrabalhadas" placeholder="Ex: 160" onkeydown="salario(event)">
+            </section>
+            <section>
+                <p id="resultado"></p>
+            </section>
+        </section>
+    </main>
+</body>
+</html>

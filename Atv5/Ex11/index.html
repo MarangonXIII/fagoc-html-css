@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Ex 11 - 3x ao cubo³</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <section>
+                <h2>Cálculos com Dois Inteiros e Um Real</h2>
+            </section>
+            <section>
+                <input type="number" id="int1" placeholder="Primeiro inteiro" onkeydown="irParaProximo(event, 'int2')">
+            </section>
+            <section>
+                <input type="number" id="int2" placeholder="Segundo inteiro" onkeydown="irParaProximo(event, 'real')">
+            </section>
+            <section>
+                <input type="number" step="0.01" id="real" placeholder="Número real" onkeydown="cubo(event)">
+            </section>
+            <section>
+                <p id="resultado"></p>
+            </section>
+        </section>
+    </main>
+</body>
+</html>

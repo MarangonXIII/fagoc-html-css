@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Ex 12 - IMC</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <section>
+                <h2>Cálculo do Peso Ideal</h2>
+            </section>
+            <section>
+                <input type="number" step="0.01" id="altura" placeholder="Digite sua altura" onkeydown="irParaGenero(event)">
+            </section>
+            <section>
+                <label for="genero">Selecione seu gênero</label>
+                <select id="genero" onchange="peso()">
+                    <option value="">Selecione</option>
+                    <option value="homem">Homem</option>
+                    <option value="mulher">Mulher</option>
+                    <option value="combate">Helicóptero de Combate</option>
+                </select>
+            </section>
+            <section>
+                <p id="resultado"></p>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
