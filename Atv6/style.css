@@ -4,7 +4,7 @@
     margin: 0px;
 }
 
-body {
+body{
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -12,23 +12,27 @@ body {
     height: 100vh;
     background-color: #f4f4f4;
 }
-.container {
+
+.container{
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     width: 500px;
 }
-h2 {
+
+h2{
     text-align: center;
     margin-bottom: 20px;
 }
-label {
+
+label{
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
 }
-input, textarea {
+
+input{
     width: 475px;
     padding: 10px;
     margin-bottom: 10px;
@@ -36,19 +40,33 @@ input, textarea {
     border-radius: 5px;
     font-size: 15px;
 }
-input.error, textarea.error {
+
+input.error{
     border-color: red;
 }
-.error-message {
+
+.error-message{
     color: red;
     font-size: 15px;
     margin-bottom: 10px;
     display: none;
 }
-textarea {
-    resize: vertical; /* Permite o redimensionamento apenas verticalmente */
+
+textarea{
+    width: 475px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    resize: vertical;
 }
-button {
+
+textarea.error{
+    border-color: red;
+}
+
+button{
     background-color: #28a745;
     color: white;
     padding: 10px;
@@ -58,6 +76,13 @@ button {
     cursor: pointer;
     width: 20%;
 }
-button:hover {
+
+button:hover{
     background-color: #218838;
+}
+
+/* Remove as setas de aumentar/diminuir */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
